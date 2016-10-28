@@ -1,0 +1,9 @@
+*.xcworkspace
+Pods
+Podfile.lock
+
+fastlane/report.xml
+Resources/formattests
+xcuserdata
+
+.DS_Store

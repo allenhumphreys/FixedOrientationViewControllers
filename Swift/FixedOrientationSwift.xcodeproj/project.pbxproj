@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D49FC9A1F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D49FC991F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard */; };
+		4D49FC9C1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D49FC9B1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard */; };
+		4DB0641E1F03EDB5009CE5CD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0641D1F03EDB5009CE5CD /* Common.swift */; };
+		4DB0641F1F03EDB5009CE5CD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0641D1F03EDB5009CE5CD /* Common.swift */; };
+		4DB064201F03EDB5009CE5CD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0641D1F03EDB5009CE5CD /* Common.swift */; };
+		4DB064241F03EE72009CE5CD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064211F03EE72009CE5CD /* CameraViewController.swift */; };
+		4DB064251F03EE72009CE5CD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064211F03EE72009CE5CD /* CameraViewController.swift */; };
+		4DB064261F03EE72009CE5CD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064211F03EE72009CE5CD /* CameraViewController.swift */; };
+		4DB064271F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */; };
+		4DB064281F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */; };
+		4DB064291F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */; };
+		4DB0642A1F03EE72009CE5CD /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064231F03EE72009CE5CD /* PreviewView.swift */; };
+		4DB0642B1F03EE72009CE5CD /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064231F03EE72009CE5CD /* PreviewView.swift */; };
+		4DB0642C1F03EE72009CE5CD /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064231F03EE72009CE5CD /* PreviewView.swift */; };
+		9F003EF41DC536D3004DFEC7 /* ReverseTransformsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EF31DC536D3004DFEC7 /* ReverseTransformsVC.swift */; };
+		9F003EF71DC558DA004DFEC7 /* FakedRotationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EF51DC558D7004DFEC7 /* FakedRotationVC.swift */; };
+		9F1FF6CC1DC51D9800344034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CB1DC51D9800344034 /* Assets.xcassets */; };
+		9F1FF6CF1DC51DB400344034 /* SizeClassesNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CD1DC51DB400344034 /* SizeClassesNC.swift */; };
+		9F1FF6D01DC51DB400344034 /* SizeClassesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CE1DC51DB400344034 /* SizeClassesVC.swift */; };
+		9F7345991DC51DD0002AE74D /* SizeClasses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7345981DC51DD0002AE74D /* SizeClasses.storyboard */; };
+		9F73459B1DC51DF8002AE74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73459A1DC51DF8002AE74D /* AppDelegate.swift */; };
+		9F7345A01DC51E31002AE74D /* SizeClassesLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F73459E1DC51E31002AE74D /* SizeClassesLaunchScreen.storyboard */; };
+		9F7345BA1DC52E5E002AE74D /* ReverseTransforms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7345A21DC52D5E002AE74D /* ReverseTransforms.storyboard */; };
+		9F7345BC1DC52E6F002AE74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73459A1DC51DF8002AE74D /* AppDelegate.swift */; };
+		9F7345BD1DC52EBF002AE74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CB1DC51D9800344034 /* Assets.xcassets */; };
+		9F7345D41DC53066002AE74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73459A1DC51DF8002AE74D /* AppDelegate.swift */; };
+		9F7345D61DC53131002AE74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CB1DC51D9800344034 /* Assets.xcassets */; };
+		9FB3DCA51DC55B5B0034946E /* FakedRotation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB3DCA41DC55B5B0034946E /* FakedRotation.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D49FC991F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ReverseTransformsLaunchScreen.storyboard; path = Source/ReverseTransforms/ReverseTransformsLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		4D49FC9B1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FakedRotationLaunchScreen.storyboard; path = Source/FakedRotation/FakedRotationLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		4DB0641D1F03EDB5009CE5CD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Source/Common.swift; sourceTree = "<group>"; };
+		4DB064211F03EE72009CE5CD /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Source/CameraViewController.swift; sourceTree = "<group>"; };
+		4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCaptureDelegate.swift; path = Source/PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		4DB064231F03EE72009CE5CD /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Source/PreviewView.swift; sourceTree = "<group>"; };
+		9F003EF31DC536D3004DFEC7 /* ReverseTransformsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReverseTransformsVC.swift; path = Source/ReverseTransforms/ReverseTransformsVC.swift; sourceTree = SOURCE_ROOT; };
+		9F003EF51DC558D7004DFEC7 /* FakedRotationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FakedRotationVC.swift; path = Source/FakedRotation/FakedRotationVC.swift; sourceTree = SOURCE_ROOT; };
+		9F1FF6CB1DC51D9800344034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		9F1FF6CD1DC51DB400344034 /* SizeClassesNC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SizeClassesNC.swift; path = Source/SizeClasses/SizeClassesNC.swift; sourceTree = SOURCE_ROOT; };
+		9F1FF6CE1DC51DB400344034 /* SizeClassesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SizeClassesVC.swift; path = Source/SizeClasses/SizeClassesVC.swift; sourceTree = SOURCE_ROOT; };
+		9F7345981DC51DD0002AE74D /* SizeClasses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SizeClasses.storyboard; path = Source/SizeClasses/Base.lproj/SizeClasses.storyboard; sourceTree = SOURCE_ROOT; };
+		9F73459A1DC51DF8002AE74D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		9F73459C1DC51E06002AE74D /* SizeClasses-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SizeClasses-Info.plist"; path = "Source/SizeClasses/SizeClasses-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9F73459F1DC51E31002AE74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Source/Base.lproj/SizeClassesLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		9F7345A21DC52D5E002AE74D /* ReverseTransforms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ReverseTransforms.storyboard; path = Source/ReverseTransforms/ReverseTransforms.storyboard; sourceTree = SOURCE_ROOT; };
+		9F7345A81DC52DB3002AE74D /* ReverseTransforms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseTransforms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7345B61DC52DB3002AE74D /* ReverseTransforms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "ReverseTransforms-Info.plist"; path = "Source/ReverseTransforms/ReverseTransforms-Info.plist"; sourceTree = "<group>"; };
+		9F7345C21DC5303F002AE74D /* FakedRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakedRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7345D01DC53040002AE74D /* FakedRotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "FakedRotation-Info.plist"; path = "Source/FakedRotation/FakedRotation-Info.plist"; sourceTree = "<group>"; };
+		9F74163D1DC416BC008A3BA6 /* SizeClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SizeClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB3DCA41DC55B5B0034946E /* FakedRotation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FakedRotation.storyboard; path = Source/FakedRotation/FakedRotation.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F7345A51DC52DB3002AE74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345BF1DC5303F002AE74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F74163A1DC416BC008A3BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F33AF151DC51B7500610290 /* SizeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9F73459E1DC51E31002AE74D /* SizeClassesLaunchScreen.storyboard */,
+				9F73459C1DC51E06002AE74D /* SizeClasses-Info.plist */,
+				9F1FF6CD1DC51DB400344034 /* SizeClassesNC.swift */,
+				9F1FF6CE1DC51DB400344034 /* SizeClassesVC.swift */,
+				9F7345981DC51DD0002AE74D /* SizeClasses.storyboard */,
+			);
+			name = SizeClasses;
+			path = SizeClassesRotationTester;
+			sourceTree = "<group>";
+		};
+		9F7345A11DC52D16002AE74D /* ReverseTransforms */ = {
+			isa = PBXGroup;
+			children = (
+				9F7345B61DC52DB3002AE74D /* ReverseTransforms-Info.plist */,
+				9F003EF31DC536D3004DFEC7 /* ReverseTransformsVC.swift */,
+				4D49FC991F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard */,
+				9F7345A21DC52D5E002AE74D /* ReverseTransforms.storyboard */,
+			);
+			name = ReverseTransforms;
+			path = SizeClassesRotationTester;
+			sourceTree = "<group>";
+		};
+		9F7345C31DC53040002AE74D /* FakedRotation */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3DCA41DC55B5B0034946E /* FakedRotation.storyboard */,
+				4D49FC9B1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard */,
+				9F003EF51DC558D7004DFEC7 /* FakedRotationVC.swift */,
+				9F7345D01DC53040002AE74D /* FakedRotation-Info.plist */,
+			);
+			path = FakedRotation;
+			sourceTree = "<group>";
+		};
+		9F7416341DC416BC008A3BA6 = {
+			isa = PBXGroup;
+			children = (
+				4DB0641D1F03EDB5009CE5CD /* Common.swift */,
+				4DB064211F03EE72009CE5CD /* CameraViewController.swift */,
+				4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */,
+				4DB064231F03EE72009CE5CD /* PreviewView.swift */,
+				9F73459A1DC51DF8002AE74D /* AppDelegate.swift */,
+				9F1FF6CB1DC51D9800344034 /* Assets.xcassets */,
+				9F7345A11DC52D16002AE74D /* ReverseTransforms */,
+				9F33AF151DC51B7500610290 /* SizeClasses */,
+				9F7345C31DC53040002AE74D /* FakedRotation */,
+				9F74163E1DC416BC008A3BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F74163E1DC416BC008A3BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F74163D1DC416BC008A3BA6 /* SizeClasses.app */,
+				9F7345A81DC52DB3002AE74D /* ReverseTransforms.app */,
+				9F7345C21DC5303F002AE74D /* FakedRotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F7345A71DC52DB3002AE74D /* ReverseTransforms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F7345B71DC52DB3002AE74D /* Build configuration list for PBXNativeTarget "ReverseTransforms" */;
+			buildPhases = (
+				9F7345A41DC52DB3002AE74D /* Sources */,
+				9F7345A51DC52DB3002AE74D /* Frameworks */,
+				9F7345A61DC52DB3002AE74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseTransforms;
+			productName = ReverseTransforms;
+			productReference = 9F7345A81DC52DB3002AE74D /* ReverseTransforms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F7345C11DC5303F002AE74D /* FakedRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F7345D11DC53040002AE74D /* Build configuration list for PBXNativeTarget "FakedRotation" */;
+			buildPhases = (
+				9F7345BE1DC5303F002AE74D /* Sources */,
+				9F7345BF1DC5303F002AE74D /* Frameworks */,
+				9F7345C01DC5303F002AE74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakedRotation;
+			productName = FakedRotation;
+			productReference = 9F7345C21DC5303F002AE74D /* FakedRotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F74163C1DC416BC008A3BA6 /* SizeClasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F74164F1DC416BC008A3BA6 /* Build configuration list for PBXNativeTarget "SizeClasses" */;
+			buildPhases = (
+				9F7416391DC416BC008A3BA6 /* Sources */,
+				9F74163A1DC416BC008A3BA6 /* Frameworks */,
+				9F74163B1DC416BC008A3BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SizeClasses;
+			productName = SizeClassesRotationTester;
+			productReference = 9F74163D1DC416BC008A3BA6 /* SizeClasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F7416351DC416BC008A3BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Allen, Inc.";
+				TargetAttributes = {
+					9F7345A71DC52DB3002AE74D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Automatic;
+					};
+					9F7345C11DC5303F002AE74D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Automatic;
+					};
+					9F74163C1DC416BC008A3BA6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9F7416381DC416BC008A3BA6 /* Build configuration list for PBXProject "FixedOrientationSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F7416341DC416BC008A3BA6;
+			productRefGroup = 9F74163E1DC416BC008A3BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F74163C1DC416BC008A3BA6 /* SizeClasses */,
+				9F7345A71DC52DB3002AE74D /* ReverseTransforms */,
+				9F7345C11DC5303F002AE74D /* FakedRotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F7345A61DC52DB3002AE74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7345BA1DC52E5E002AE74D /* ReverseTransforms.storyboard in Resources */,
+				9F7345BD1DC52EBF002AE74D /* Assets.xcassets in Resources */,
+				4D49FC9A1F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345C01DC5303F002AE74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB3DCA51DC55B5B0034946E /* FakedRotation.storyboard in Resources */,
+				4D49FC9C1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard in Resources */,
+				9F7345D61DC53131002AE74D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F74163B1DC416BC008A3BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7345A01DC51E31002AE74D /* SizeClassesLaunchScreen.storyboard in Resources */,
+				9F1FF6CC1DC51D9800344034 /* Assets.xcassets in Resources */,
+				9F7345991DC51DD0002AE74D /* SizeClasses.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F7345A41DC52DB3002AE74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F003EF41DC536D3004DFEC7 /* ReverseTransformsVC.swift in Sources */,
+				4DB064251F03EE72009CE5CD /* CameraViewController.swift in Sources */,
+				4DB0641F1F03EDB5009CE5CD /* Common.swift in Sources */,
+				4DB064281F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */,
+				9F7345BC1DC52E6F002AE74D /* AppDelegate.swift in Sources */,
+				4DB0642B1F03EE72009CE5CD /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345BE1DC5303F002AE74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7345D41DC53066002AE74D /* AppDelegate.swift in Sources */,
+				4DB064261F03EE72009CE5CD /* CameraViewController.swift in Sources */,
+				4DB064201F03EDB5009CE5CD /* Common.swift in Sources */,
+				4DB064291F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */,
+				9F003EF71DC558DA004DFEC7 /* FakedRotationVC.swift in Sources */,
+				4DB0642C1F03EE72009CE5CD /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7416391DC416BC008A3BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB064271F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */,
+				4DB0641E1F03EDB5009CE5CD /* Common.swift in Sources */,
+				4DB0642A1F03EE72009CE5CD /* PreviewView.swift in Sources */,
+				4DB064241F03EE72009CE5CD /* CameraViewController.swift in Sources */,
+				9F73459B1DC51DF8002AE74D /* AppDelegate.swift in Sources */,
+				9F1FF6CF1DC51DB400344034 /* SizeClassesNC.swift in Sources */,
+				9F1FF6D01DC51DB400344034 /* SizeClassesVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F73459E1DC51E31002AE74D /* SizeClassesLaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F73459F1DC51E31002AE74D /* Base */,
+			);
+			name = SizeClassesLaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F7345B81DC52DB3002AE74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/ReverseTransforms/ReverseTransforms-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.ReverseTransforms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F7345B91DC52DB3002AE74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/ReverseTransforms/ReverseTransforms-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.ReverseTransforms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F7345D21DC53040002AE74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/FakedRotation/FakedRotation-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.FakedRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F7345D31DC53040002AE74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/FakedRotation/FakedRotation-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.FakedRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F74164D1DC416BC008A3BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F74164E1DC416BC008A3BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F7416501DC416BC008A3BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/SizeClasses/SizeClasses-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SizeClassesRotationTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a573abed-f3cb-4f9f-98c2-e2081b5709cb";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Provisioning";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F7416511DC416BC008A3BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/SizeClasses/SizeClasses-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SizeClassesRotationTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F7345B71DC52DB3002AE74D /* Build configuration list for PBXNativeTarget "ReverseTransforms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7345B81DC52DB3002AE74D /* Debug */,
+				9F7345B91DC52DB3002AE74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F7345D11DC53040002AE74D /* Build configuration list for PBXNativeTarget "FakedRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7345D21DC53040002AE74D /* Debug */,
+				9F7345D31DC53040002AE74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F7416381DC416BC008A3BA6 /* Build configuration list for PBXProject "FixedOrientationSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F74164D1DC416BC008A3BA6 /* Debug */,
+				9F74164E1DC416BC008A3BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F74164F1DC416BC008A3BA6 /* Build configuration list for PBXNativeTarget "SizeClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7416501DC416BC008A3BA6 /* Debug */,
+				9F7416511DC416BC008A3BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F7416351DC416BC008A3BA6 /* Project object */;
+}
