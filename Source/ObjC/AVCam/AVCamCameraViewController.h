@@ -10,4 +10,6 @@
 
 @interface AVCamCameraViewController : UIViewController
 
+@property (class, nonatomic, readonly) BOOL needsPreviewRotations;
+
 @end

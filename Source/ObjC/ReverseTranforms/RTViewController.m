@@ -16,6 +16,10 @@
 
 @implementation RTViewController
 
++ (BOOL)needsPreviewRotations {
+    return NO;
+}
+
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
     [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
 
@@ -39,7 +43,7 @@
         // Apply an oposing transoform to the view to keep it in place
         CGAffineTransform deltaTransform = coordinator.targetTransform;
         float deltaAngle = atan2f(deltaTransform.b, deltaTransform.a);
-        NSNumber *rotation = [strongSelf.view.layer valueForKey:@"transform.rotation.z"];
+        NSNumber *rotation = [strongSelf.view.layer valueForKeyPath:@"transform.rotation.z"];
         if (rotation && [rotation isKindOfClass:[NSNumber class]]) {
             float currentRotation = rotation.floatValue;
             currentRotation = currentRotation + -1 * deltaAngle + 0.0001;

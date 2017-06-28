@@ -6,8 +6,10 @@
 //  Copyright © 2017 Allen Humphreys. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
-@interface RTViewController : UIViewController
+#import "AVCamCameraViewController.h"
+
+@interface RTViewController : AVCamCameraViewController
 
 @end

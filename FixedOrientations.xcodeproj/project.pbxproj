@@ -181,11 +181,11 @@
 		4D76D8FB1F04261E0037E604 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				4D76D9C71F042A8F0037E604 /* AVCam */,
-				4D76D95F1F0429EC0037E604 /* FakedRotation */,
 				4D76D9651F0429EC0037E604 /* FVCAppDelegate.h */,
 				4D76D9661F0429EC0037E604 /* FVCAppDelegate.m */,
 				4D76D9671F0429EC0037E604 /* main.m */,
+				4D76D9C71F042A8F0037E604 /* AVCam */,
+				4D76D95F1F0429EC0037E604 /* FakedRotation */,
 				4D76D9681F0429EC0037E604 /* ReverseTranforms */,
 				4D76D96E1F0429EC0037E604 /* SizeClasses */,
 			);
@@ -420,6 +420,7 @@
 		9F7416351DC416BC008A3BA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Allen, Inc.";
@@ -890,6 +891,7 @@
 				4D76D9901F042A130037E604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D76D9A91F042A200037E604 /* Build configuration list for PBXNativeTarget "ObjCSizeClasses" */ = {
 			isa = XCConfigurationList;
@@ -898,6 +900,7 @@
 				4D76D9AB1F042A200037E604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D76D9C41F042A320037E604 /* Build configuration list for PBXNativeTarget "ObjCFakedRotation" */ = {
 			isa = XCConfigurationList;
@@ -906,6 +909,7 @@
 				4D76D9C61F042A320037E604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F7345B71DC52DB3002AE74D /* Build configuration list for PBXNativeTarget "SwiftReverseTransforms" */ = {
 			isa = XCConfigurationList;

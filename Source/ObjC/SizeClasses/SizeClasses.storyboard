@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SYQ-iY-KH9">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -12,7 +12,9 @@
         <!--Navigation Controller-->
         <scene sceneID="qrY-Ri-wBB">
             <objects>
-                <navigationController id="SYQ-iY-KH9" customClass="SCNavigationController" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="SYQ-iY-KH9" customClass="SCNavigationController" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LAy-Tc-js1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -34,15 +36,74 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7n-RQ-6Sk" customClass="AVCamPreviewView">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tMG-jF-eFl">
+                                <rect key="frame" x="0.0" y="0.0" width="70" height="414"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="667" id="7dA-32-RUG">
+                                        <variation key="heightClass=compact" constant="70"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="70" id="Ovh-Ec-65L"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="7dA-32-RUG"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="7dA-32-RUG"/>
+                                        <exclude reference="Ovh-Ec-65L"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="g7n-RQ-6Sk" secondAttribute="trailing" id="7AW-0R-lXi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tMG-jF-eFl" secondAttribute="bottom" id="K66-Gx-XAf"/>
+                            <constraint firstItem="tMG-jF-eFl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Q0z-mJ-kwx"/>
+                            <constraint firstItem="tMG-jF-eFl" firstAttribute="top" secondItem="g7n-RQ-6Sk" secondAttribute="top" id="Sjl-bn-bBJ"/>
+                            <constraint firstItem="tMG-jF-eFl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iOV-vB-Jgu"/>
+                            <constraint firstAttribute="trailing" secondItem="tMG-jF-eFl" secondAttribute="trailing" id="mAA-u5-boF"/>
+                            <constraint firstItem="g7n-RQ-6Sk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="myi-22-Taw"/>
+                            <constraint firstItem="g7n-RQ-6Sk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ynE-AR-rcy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g7n-RQ-6Sk" secondAttribute="bottom" id="ztb-7J-C0q"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Q0z-mJ-kwx"/>
+                                <exclude reference="Sjl-bn-bBJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="Sjl-bn-bBJ"/>
+                                <exclude reference="iOV-vB-Jgu"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="Q0z-mJ-kwx"/>
+                                <exclude reference="mAA-u5-boF"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="eLu-r1-NfG"/>
+                    <connections>
+                        <outlet property="previewView" destination="g7n-RQ-6Sk" id="RpH-dy-1qb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-417" y="86"/>
+            <point key="canvasLocation" x="-418.39999999999998" y="85.907046476761622"/>
         </scene>
     </scenes>
 </document>

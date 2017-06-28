@@ -6,8 +6,10 @@
 //  Copyright © 2017 Allen Humphreys. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
-@interface SCViewController : UIViewController
+#import "AVCamCameraViewController.h"
+
+@interface SCViewController : AVCamCameraViewController
 
 @end

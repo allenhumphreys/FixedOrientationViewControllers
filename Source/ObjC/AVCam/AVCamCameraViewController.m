@@ -94,6 +94,10 @@ typedef NS_ENUM( NSInteger, AVCamLivePhotoMode ) {
 
 #pragma mark View Controller Life Cycle
 
++ (BOOL)needsPreviewRotations {
+    return YES;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -248,7 +252,11 @@ typedef NS_ENUM( NSInteger, AVCamLivePhotoMode ) {
     [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
     
     UIDeviceOrientation deviceOrientation = [UIDevice currentDevice].orientation;
-    
+
+    if (![[self class] needsPreviewRotations]) {
+        return;
+    }
+
     if ( UIDeviceOrientationIsPortrait( deviceOrientation ) || UIDeviceOrientationIsLandscape( deviceOrientation ) ) {
         self.previewView.videoPreviewLayer.connection.videoOrientation = (AVCaptureVideoOrientation)deviceOrientation;
     }
