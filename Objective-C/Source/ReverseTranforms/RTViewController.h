@@ -10,6 +10,4 @@
 
 @interface RTViewController : UIViewController
 
-
 @end
-

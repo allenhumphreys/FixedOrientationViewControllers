@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D76D8EB1F0416A20037E604 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8E61F0416A20037E604 /* AVCamCameraViewController.m */; };
+		4D76D8EC1F0416A20037E604 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8E61F0416A20037E604 /* AVCamCameraViewController.m */; };
+		4D76D8ED1F0416A20037E604 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8E61F0416A20037E604 /* AVCamCameraViewController.m */; };
+		4D76D8EE1F0416A20037E604 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8E81F0416A20037E604 /* AVCamPhotoCaptureDelegate.m */; };
+		4D76D8EF1F0416A20037E604 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8E81F0416A20037E604 /* AVCamPhotoCaptureDelegate.m */; };
+		4D76D8F01F0416A20037E604 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8E81F0416A20037E604 /* AVCamPhotoCaptureDelegate.m */; };
+		4D76D8F11F0416A20037E604 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8EA1F0416A20037E604 /* AVCamPreviewView.m */; };
+		4D76D8F21F0416A20037E604 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8EA1F0416A20037E604 /* AVCamPreviewView.m */; };
+		4D76D8F31F0416A20037E604 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8EA1F0416A20037E604 /* AVCamPreviewView.m */; };
+		4D76D8F81F041DCA0037E604 /* SCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D8F71F041DCA0037E604 /* SCNavigationController.m */; };
 		4DDE21991F040B1F0005B707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE21981F040B1F0005B707 /* main.m */; };
 		4DDE219C1F040B1F0005B707 /* FVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE219B1F040B1F0005B707 /* FVCAppDelegate.m */; };
 		4DDE219F1F040B1F0005B707 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE219E1F040B1F0005B707 /* RTViewController.m */; };
@@ -28,6 +38,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D76D8E51F0416A20037E604 /* AVCamCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVCamCameraViewController.h; path = Source/AVCamCameraViewController.h; sourceTree = "<group>"; };
+		4D76D8E61F0416A20037E604 /* AVCamCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVCamCameraViewController.m; path = Source/AVCamCameraViewController.m; sourceTree = "<group>"; };
+		4D76D8E71F0416A20037E604 /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVCamPhotoCaptureDelegate.h; path = Source/AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
+		4D76D8E81F0416A20037E604 /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVCamPhotoCaptureDelegate.m; path = Source/AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
+		4D76D8E91F0416A20037E604 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVCamPreviewView.h; path = Source/AVCamPreviewView.h; sourceTree = "<group>"; };
+		4D76D8EA1F0416A20037E604 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVCamPreviewView.m; path = Source/AVCamPreviewView.m; sourceTree = "<group>"; };
+		4D76D8F61F041D9B0037E604 /* SCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCNavigationController.h; path = Source/SizeClasses/SCNavigationController.h; sourceTree = SOURCE_ROOT; };
+		4D76D8F71F041DCA0037E604 /* SCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCNavigationController.m; path = Source/SizeClasses/SCNavigationController.m; sourceTree = SOURCE_ROOT; };
 		4DDE21941F040B1F0005B707 /* ReverseTransforms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseTransforms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDE21981F040B1F0005B707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
 		4DDE219A1F040B1F0005B707 /* FVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FVCAppDelegate.h; path = Source/FVCAppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +95,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D76D8F51F04178A0037E604 /* AVCam */ = {
+			isa = PBXGroup;
+			children = (
+				4D76D8E51F0416A20037E604 /* AVCamCameraViewController.h */,
+				4D76D8E61F0416A20037E604 /* AVCamCameraViewController.m */,
+				4D76D8E71F0416A20037E604 /* AVCamPhotoCaptureDelegate.h */,
+				4D76D8E81F0416A20037E604 /* AVCamPhotoCaptureDelegate.m */,
+				4D76D8E91F0416A20037E604 /* AVCamPreviewView.h */,
+				4D76D8EA1F0416A20037E604 /* AVCamPreviewView.m */,
+			);
+			name = AVCam;
+			sourceTree = "<group>";
+		};
 		4DDE218B1F040B1F0005B707 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +115,7 @@
 				4DDE219B1F040B1F0005B707 /* FVCAppDelegate.m */,
 				4DDE21981F040B1F0005B707 /* main.m */,
 				4DDE21A31F040B1F0005B707 /* Assets.xcassets */,
+				4D76D8F51F04178A0037E604 /* AVCam */,
 				4DDE21B01F040CC60005B707 /* ReverseTransforms */,
 				4DDE21B61F040D090005B707 /* SizeClasses */,
 				4DDE21D11F040D170005B707 /* FakedRotation */,
@@ -116,6 +148,8 @@
 		4DDE21B61F040D090005B707 /* SizeClasses */ = {
 			isa = PBXGroup;
 			children = (
+				4D76D8F61F041D9B0037E604 /* SCNavigationController.h */,
+				4D76D8F71F041DCA0037E604 /* SCNavigationController.m */,
 				4DDE21BD1F040D090005B707 /* SCViewController.h */,
 				4DDE21BE1F040D090005B707 /* SCViewController.m */,
 				4DDE21C01F040D090005B707 /* SizeClasses.storyboard */,
@@ -275,8 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D76D8EE1F0416A20037E604 /* AVCamPhotoCaptureDelegate.m in Sources */,
 				4DDE219F1F040B1F0005B707 /* RTViewController.m in Sources */,
+				4D76D8F11F0416A20037E604 /* AVCamPreviewView.m in Sources */,
 				4DDE219C1F040B1F0005B707 /* FVCAppDelegate.m in Sources */,
+				4D76D8EB1F0416A20037E604 /* AVCamCameraViewController.m in Sources */,
 				4DDE21991F040B1F0005B707 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D76D8EF1F0416A20037E604 /* AVCamPhotoCaptureDelegate.m in Sources */,
 				4DDE21ED1F040FE90005B707 /* SCViewController.m in Sources */,
+				4D76D8F81F041DCA0037E604 /* SCNavigationController.m in Sources */,
+				4D76D8F21F0416A20037E604 /* AVCamPreviewView.m in Sources */,
 				4DDE21EC1F040E390005B707 /* FVCAppDelegate.m in Sources */,
+				4D76D8EC1F0416A20037E604 /* AVCamCameraViewController.m in Sources */,
 				4DDE21EA1F040E360005B707 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,8 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D76D8F01F0416A20037E604 /* AVCamPhotoCaptureDelegate.m in Sources */,
 				4DDE21EB1F040E380005B707 /* FVCAppDelegate.m in Sources */,
+				4D76D8F31F0416A20037E604 /* AVCamPreviewView.m in Sources */,
 				4DDE21DA1F040D170005B707 /* FRViewController.m in Sources */,
+				4D76D8ED1F0416A20037E604 /* AVCamCameraViewController.m in Sources */,
 				4DDE21E91F040E350005B707 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

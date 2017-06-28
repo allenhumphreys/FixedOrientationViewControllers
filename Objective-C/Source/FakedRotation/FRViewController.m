@@ -10,20 +10,59 @@
 
 @interface FRViewController ()
 
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *viewsToBeRotated;
+
 @end
 
 @implementation FRViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationDidChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UIDevice.current.beginGeneratingDeviceOrientationNotifications()
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [supr viewWillDisappear:animated]
+
+    UIDevice.current.endGeneratingDeviceOrientationNotifications()
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return true;
+}
+
+- (void)orientationDidChange:(NSNotification *)notification {
+    // Explicity apply transforms to subviews that we'd like to see rotate
+    UIDeviceOrientation orientation = UIDevice.currentDevice.orientation;
+    CGAffineTransform transform = CGAffineTransformIdentity;
+
+    switch (orientation) {
+        case UIDeviceOrientationLandscapeRight:
+            transform = CGAffineTransformMakeRotation(-M_PI_2)
+            break;
+        case UIDeviceOrientationLandscapeLeft:
+            transform = CGAffineTransformMakeRotation(M_PI_2)
+            break;
+        default:
+            break
+    }
+
+    [UIView animateWithDuration:UIApplication.sharedApplication.statusBarOrientationAnimationDuration animations:^{
+        for (UIView *view in self.viewsToBeRotated) {
+            view.transform = transform
+        }
+    }];
+}
 
 @end

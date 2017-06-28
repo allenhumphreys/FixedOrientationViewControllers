@@ -1,6 +1,6 @@
 //
-//  ViewController.h
-//  SizeClasses
+//  UINavigationController_SCNavigationController.h
+//  FixedOrientationObjC
 //
 //  Created by Allen Humphreys on 6/28/17.
 //  Copyright © 2017 Allen Humphreys. All rights reserved.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SCViewController : UIViewController
+@interface SCNavigationController : UINavigationController
 
 @end

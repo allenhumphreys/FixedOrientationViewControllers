@@ -8,11 +8,6 @@
 
 #import "FVCAppDelegate.h"
 
-@interface FVCAppDelegate ()
-
-@end
-
 @implementation FVCAppDelegate
-
 
 @end
