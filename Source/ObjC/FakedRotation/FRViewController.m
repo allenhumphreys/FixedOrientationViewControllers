@@ -25,13 +25,13 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 
-    UIDevice.current.beginGeneratingDeviceOrientationNotifications()
+    [UIDevice.currentDevice beginGeneratingDeviceOrientationNotifications];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-    [supr viewWillDisappear:animated]
+    [super viewWillDisappear:animated];
 
-    UIDevice.current.endGeneratingDeviceOrientationNotifications()
+    [UIDevice.currentDevice endGeneratingDeviceOrientationNotifications];
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
@@ -49,18 +49,18 @@
 
     switch (orientation) {
         case UIDeviceOrientationLandscapeRight:
-            transform = CGAffineTransformMakeRotation(-M_PI_2)
+            transform = CGAffineTransformMakeRotation(-M_PI_2);
             break;
         case UIDeviceOrientationLandscapeLeft:
-            transform = CGAffineTransformMakeRotation(M_PI_2)
+            transform = CGAffineTransformMakeRotation(M_PI_2);
             break;
         default:
-            break
+            break;
     }
 
     [UIView animateWithDuration:UIApplication.sharedApplication.statusBarOrientationAnimationDuration animations:^{
         for (UIView *view in self.viewsToBeRotated) {
-            view.transform = transform
+            view.transform = transform;
         }
     }];
 }

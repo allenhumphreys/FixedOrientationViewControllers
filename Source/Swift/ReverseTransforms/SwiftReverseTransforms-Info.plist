@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>It's kind of the point</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>It's kind of the point</string>
 	<key>UILaunchStoryboardName</key>
 	<string>ReverseTransformsLaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -34,10 +38,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>NSCameraUsageDescription</key>
-    <string>It&apos;s kind of the point</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>It&apos;s kind of the point</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

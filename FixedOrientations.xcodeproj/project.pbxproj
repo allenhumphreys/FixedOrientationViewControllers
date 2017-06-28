@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D49FC9A1F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D49FC991F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard */; };
+		4D49FC9C1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D49FC9B1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard */; };
+		4D76D9571F0428320037E604 /* SizeClasses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D76D9551F0428320037E604 /* SizeClasses.storyboard */; };
+		4D76D9581F0428320037E604 /* SizeClassesLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D76D9561F0428320037E604 /* SizeClassesLaunchScreen.storyboard */; };
+		4D76D9CE1F042A8F0037E604 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9C91F042A8F0037E604 /* AVCamCameraViewController.m */; };
+		4D76D9CF1F042A8F0037E604 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9C91F042A8F0037E604 /* AVCamCameraViewController.m */; };
+		4D76D9D01F042A8F0037E604 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9C91F042A8F0037E604 /* AVCamCameraViewController.m */; };
+		4D76D9D11F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9CB1F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m */; };
+		4D76D9D21F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9CB1F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m */; };
+		4D76D9D31F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9CB1F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m */; };
+		4D76D9D41F042A8F0037E604 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9CD1F042A8F0037E604 /* AVCamPreviewView.m */; };
+		4D76D9D51F042A8F0037E604 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9CD1F042A8F0037E604 /* AVCamPreviewView.m */; };
+		4D76D9D61F042A8F0037E604 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9CD1F042A8F0037E604 /* AVCamPreviewView.m */; };
+		4D76D9D71F042AAB0037E604 /* FakedRotation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D76D9601F0429EC0037E604 /* FakedRotation.storyboard */; };
+		4D76D9D81F042AAB0037E604 /* FakedRotationLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D76D9611F0429EC0037E604 /* FakedRotationLaunchScreen.storyboard */; };
+		4D76D9D91F042AAB0037E604 /* FRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9631F0429EC0037E604 /* FRViewController.m */; };
+		4D76D9DB1F042ACF0037E604 /* ReverseTransforms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D76D96A1F0429EC0037E604 /* ReverseTransforms.storyboard */; };
+		4D76D9DC1F042ACF0037E604 /* ReverseTransformsLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D76D96B1F0429EC0037E604 /* ReverseTransformsLaunchScreen.storyboard */; };
+		4D76D9DD1F042ACF0037E604 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D96D1F0429EC0037E604 /* RTViewController.m */; };
+		4D76D9DE1F042ADB0037E604 /* SCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9711F0429EC0037E604 /* SCNavigationController.m */; };
+		4D76D9DF1F042ADB0037E604 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9731F0429EC0037E604 /* SCViewController.m */; };
+		4D76D9E01F042ADB0037E604 /* SizeClasses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D76D9741F0429EC0037E604 /* SizeClasses.storyboard */; };
+		4D76D9E11F042ADB0037E604 /* SizeClassesLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D76D9751F0429EC0037E604 /* SizeClassesLaunchScreen.storyboard */; };
+		4D76D9E21F042B100037E604 /* FVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9661F0429EC0037E604 /* FVCAppDelegate.m */; };
+		4D76D9E31F042B100037E604 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9671F0429EC0037E604 /* main.m */; };
+		4D76D9E41F042B100037E604 /* FVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9661F0429EC0037E604 /* FVCAppDelegate.m */; };
+		4D76D9E51F042B100037E604 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9671F0429EC0037E604 /* main.m */; };
+		4D76D9E61F042B110037E604 /* FVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9661F0429EC0037E604 /* FVCAppDelegate.m */; };
+		4D76D9E71F042B110037E604 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76D9671F0429EC0037E604 /* main.m */; };
+		4DB0641E1F03EDB5009CE5CD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0641D1F03EDB5009CE5CD /* Common.swift */; };
+		4DB0641F1F03EDB5009CE5CD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0641D1F03EDB5009CE5CD /* Common.swift */; };
+		4DB064201F03EDB5009CE5CD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0641D1F03EDB5009CE5CD /* Common.swift */; };
+		4DB064241F03EE72009CE5CD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064211F03EE72009CE5CD /* CameraViewController.swift */; };
+		4DB064251F03EE72009CE5CD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064211F03EE72009CE5CD /* CameraViewController.swift */; };
+		4DB064261F03EE72009CE5CD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064211F03EE72009CE5CD /* CameraViewController.swift */; };
+		4DB064271F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */; };
+		4DB064281F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */; };
+		4DB064291F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */; };
+		4DB0642A1F03EE72009CE5CD /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064231F03EE72009CE5CD /* PreviewView.swift */; };
+		4DB0642B1F03EE72009CE5CD /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064231F03EE72009CE5CD /* PreviewView.swift */; };
+		4DB0642C1F03EE72009CE5CD /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB064231F03EE72009CE5CD /* PreviewView.swift */; };
+		9F003EF41DC536D3004DFEC7 /* ReverseTransformsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EF31DC536D3004DFEC7 /* ReverseTransformsVC.swift */; };
+		9F003EF71DC558DA004DFEC7 /* FakedRotationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EF51DC558D7004DFEC7 /* FakedRotationVC.swift */; };
+		9F1FF6CC1DC51D9800344034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CB1DC51D9800344034 /* Assets.xcassets */; };
+		9F1FF6CF1DC51DB400344034 /* SizeClassesNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CD1DC51DB400344034 /* SizeClassesNC.swift */; };
+		9F1FF6D01DC51DB400344034 /* SizeClassesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CE1DC51DB400344034 /* SizeClassesVC.swift */; };
+		9F73459B1DC51DF8002AE74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73459A1DC51DF8002AE74D /* AppDelegate.swift */; };
+		9F7345BA1DC52E5E002AE74D /* ReverseTransforms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7345A21DC52D5E002AE74D /* ReverseTransforms.storyboard */; };
+		9F7345BC1DC52E6F002AE74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73459A1DC51DF8002AE74D /* AppDelegate.swift */; };
+		9F7345BD1DC52EBF002AE74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CB1DC51D9800344034 /* Assets.xcassets */; };
+		9F7345D41DC53066002AE74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73459A1DC51DF8002AE74D /* AppDelegate.swift */; };
+		9F7345D61DC53131002AE74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1FF6CB1DC51D9800344034 /* Assets.xcassets */; };
+		9FB3DCA51DC55B5B0034946E /* FakedRotation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB3DCA41DC55B5B0034946E /* FakedRotation.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D49FC991F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReverseTransformsLaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D49FC9B1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FakedRotationLaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D76D9551F0428320037E604 /* SizeClasses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SizeClasses.storyboard; sourceTree = "<group>"; };
+		4D76D9561F0428320037E604 /* SizeClassesLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SizeClassesLaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D76D9601F0429EC0037E604 /* FakedRotation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FakedRotation.storyboard; sourceTree = "<group>"; };
+		4D76D9611F0429EC0037E604 /* FakedRotationLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FakedRotationLaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D76D9621F0429EC0037E604 /* FRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRViewController.h; sourceTree = "<group>"; };
+		4D76D9631F0429EC0037E604 /* FRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRViewController.m; sourceTree = "<group>"; };
+		4D76D9641F0429EC0037E604 /* ObjCFakedRotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCFakedRotation-Info.plist"; sourceTree = "<group>"; };
+		4D76D9651F0429EC0037E604 /* FVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FVCAppDelegate.h; sourceTree = "<group>"; };
+		4D76D9661F0429EC0037E604 /* FVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FVCAppDelegate.m; sourceTree = "<group>"; };
+		4D76D9671F0429EC0037E604 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D76D9691F0429EC0037E604 /* ObjCReverseTransforms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCReverseTransforms-Info.plist"; sourceTree = "<group>"; };
+		4D76D96A1F0429EC0037E604 /* ReverseTransforms.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReverseTransforms.storyboard; sourceTree = "<group>"; };
+		4D76D96B1F0429EC0037E604 /* ReverseTransformsLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReverseTransformsLaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D76D96C1F0429EC0037E604 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		4D76D96D1F0429EC0037E604 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		4D76D96F1F0429EC0037E604 /* ObjCSizeClasses-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCSizeClasses-Info.plist"; sourceTree = "<group>"; };
+		4D76D9701F0429EC0037E604 /* SCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNavigationController.h; sourceTree = "<group>"; };
+		4D76D9711F0429EC0037E604 /* SCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNavigationController.m; sourceTree = "<group>"; };
+		4D76D9721F0429EC0037E604 /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		4D76D9731F0429EC0037E604 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		4D76D9741F0429EC0037E604 /* SizeClasses.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizeClasses.storyboard; sourceTree = "<group>"; };
+		4D76D9751F0429EC0037E604 /* SizeClassesLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizeClassesLaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D76D97A1F042A130037E604 /* ObjCReverseTransforms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCReverseTransforms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D76D9951F042A200037E604 /* ObjCSizeClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCSizeClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D76D9B01F042A320037E604 /* ObjCFakedRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCFakedRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D76D9C81F042A8F0037E604 /* AVCamCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCameraViewController.h; sourceTree = "<group>"; };
+		4D76D9C91F042A8F0037E604 /* AVCamCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCameraViewController.m; sourceTree = "<group>"; };
+		4D76D9CA1F042A8F0037E604 /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
+		4D76D9CB1F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
+		4D76D9CC1F042A8F0037E604 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		4D76D9CD1F042A8F0037E604 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		4DB0641D1F03EDB5009CE5CD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4DB064211F03EE72009CE5CD /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		4DB064231F03EE72009CE5CD /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		9F003EF31DC536D3004DFEC7 /* ReverseTransformsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReverseTransformsVC.swift; path = Source/Swift/ReverseTransforms/ReverseTransformsVC.swift; sourceTree = SOURCE_ROOT; };
+		9F003EF51DC558D7004DFEC7 /* FakedRotationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FakedRotationVC.swift; path = Source/Swift/FakedRotation/FakedRotationVC.swift; sourceTree = SOURCE_ROOT; };
+		9F1FF6CB1DC51D9800344034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1FF6CD1DC51DB400344034 /* SizeClassesNC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeClassesNC.swift; sourceTree = "<group>"; };
+		9F1FF6CE1DC51DB400344034 /* SizeClassesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeClassesVC.swift; sourceTree = "<group>"; };
+		9F73459A1DC51DF8002AE74D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F73459C1DC51E06002AE74D /* SwiftSizeClasses-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SwiftSizeClasses-Info.plist"; sourceTree = "<group>"; };
+		9F7345A21DC52D5E002AE74D /* ReverseTransforms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReverseTransforms.storyboard; sourceTree = "<group>"; };
+		9F7345A81DC52DB3002AE74D /* SwiftReverseTransforms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftReverseTransforms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7345B61DC52DB3002AE74D /* SwiftReverseTransforms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftReverseTransforms-Info.plist"; sourceTree = "<group>"; };
+		9F7345C21DC5303F002AE74D /* SwiftFakedRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFakedRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7345D01DC53040002AE74D /* SwiftFakedRotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftFakedRotation-Info.plist"; sourceTree = "<group>"; };
+		9F74163D1DC416BC008A3BA6 /* SwiftSizeClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSizeClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB3DCA41DC55B5B0034946E /* FakedRotation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FakedRotation.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D76D9771F042A130037E604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D76D9921F042A200037E604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D76D9AD1F042A320037E604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345A51DC52DB3002AE74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345BF1DC5303F002AE74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F74163A1DC416BC008A3BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D76D8FA1F0425FE0037E604 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4DB0641D1F03EDB5009CE5CD /* Common.swift */,
+				4DB064211F03EE72009CE5CD /* CameraViewController.swift */,
+				4DB064221F03EE72009CE5CD /* PhotoCaptureDelegate.swift */,
+				4DB064231F03EE72009CE5CD /* PreviewView.swift */,
+				9F73459A1DC51DF8002AE74D /* AppDelegate.swift */,
+				9F7345A11DC52D16002AE74D /* ReverseTransforms */,
+				9F33AF151DC51B7500610290 /* SizeClasses */,
+				9F7345C31DC53040002AE74D /* FakedRotation */,
+			);
+			name = Swift;
+			path = Source/Swift;
+			sourceTree = "<group>";
+		};
+		4D76D8FB1F04261E0037E604 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4D76D9C71F042A8F0037E604 /* AVCam */,
+				4D76D95F1F0429EC0037E604 /* FakedRotation */,
+				4D76D9651F0429EC0037E604 /* FVCAppDelegate.h */,
+				4D76D9661F0429EC0037E604 /* FVCAppDelegate.m */,
+				4D76D9671F0429EC0037E604 /* main.m */,
+				4D76D9681F0429EC0037E604 /* ReverseTranforms */,
+				4D76D96E1F0429EC0037E604 /* SizeClasses */,
+			);
+			name = ObjC;
+			path = Source/ObjC;
+			sourceTree = "<group>";
+		};
+		4D76D9541F0427390037E604 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F1FF6CB1DC51D9800344034 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D76D95F1F0429EC0037E604 /* FakedRotation */ = {
+			isa = PBXGroup;
+			children = (
+				4D76D9601F0429EC0037E604 /* FakedRotation.storyboard */,
+				4D76D9611F0429EC0037E604 /* FakedRotationLaunchScreen.storyboard */,
+				4D76D9621F0429EC0037E604 /* FRViewController.h */,
+				4D76D9631F0429EC0037E604 /* FRViewController.m */,
+				4D76D9641F0429EC0037E604 /* ObjCFakedRotation-Info.plist */,
+			);
+			path = FakedRotation;
+			sourceTree = "<group>";
+		};
+		4D76D9681F0429EC0037E604 /* ReverseTranforms */ = {
+			isa = PBXGroup;
+			children = (
+				4D76D9691F0429EC0037E604 /* ObjCReverseTransforms-Info.plist */,
+				4D76D96A1F0429EC0037E604 /* ReverseTransforms.storyboard */,
+				4D76D96B1F0429EC0037E604 /* ReverseTransformsLaunchScreen.storyboard */,
+				4D76D96C1F0429EC0037E604 /* RTViewController.h */,
+				4D76D96D1F0429EC0037E604 /* RTViewController.m */,
+			);
+			path = ReverseTranforms;
+			sourceTree = "<group>";
+		};
+		4D76D96E1F0429EC0037E604 /* SizeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4D76D96F1F0429EC0037E604 /* ObjCSizeClasses-Info.plist */,
+				4D76D9701F0429EC0037E604 /* SCNavigationController.h */,
+				4D76D9711F0429EC0037E604 /* SCNavigationController.m */,
+				4D76D9721F0429EC0037E604 /* SCViewController.h */,
+				4D76D9731F0429EC0037E604 /* SCViewController.m */,
+				4D76D9741F0429EC0037E604 /* SizeClasses.storyboard */,
+				4D76D9751F0429EC0037E604 /* SizeClassesLaunchScreen.storyboard */,
+			);
+			path = SizeClasses;
+			sourceTree = "<group>";
+		};
+		4D76D9C71F042A8F0037E604 /* AVCam */ = {
+			isa = PBXGroup;
+			children = (
+				4D76D9C81F042A8F0037E604 /* AVCamCameraViewController.h */,
+				4D76D9C91F042A8F0037E604 /* AVCamCameraViewController.m */,
+				4D76D9CA1F042A8F0037E604 /* AVCamPhotoCaptureDelegate.h */,
+				4D76D9CB1F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m */,
+				4D76D9CC1F042A8F0037E604 /* AVCamPreviewView.h */,
+				4D76D9CD1F042A8F0037E604 /* AVCamPreviewView.m */,
+			);
+			path = AVCam;
+			sourceTree = "<group>";
+		};
+		9F33AF151DC51B7500610290 /* SizeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9F73459C1DC51E06002AE74D /* SwiftSizeClasses-Info.plist */,
+				4D76D9551F0428320037E604 /* SizeClasses.storyboard */,
+				4D76D9561F0428320037E604 /* SizeClassesLaunchScreen.storyboard */,
+				9F1FF6CD1DC51DB400344034 /* SizeClassesNC.swift */,
+				9F1FF6CE1DC51DB400344034 /* SizeClassesVC.swift */,
+			);
+			path = SizeClasses;
+			sourceTree = "<group>";
+		};
+		9F7345A11DC52D16002AE74D /* ReverseTransforms */ = {
+			isa = PBXGroup;
+			children = (
+				9F7345B61DC52DB3002AE74D /* SwiftReverseTransforms-Info.plist */,
+				4D49FC991F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard */,
+				9F7345A21DC52D5E002AE74D /* ReverseTransforms.storyboard */,
+				9F003EF31DC536D3004DFEC7 /* ReverseTransformsVC.swift */,
+			);
+			path = ReverseTransforms;
+			sourceTree = "<group>";
+		};
+		9F7345C31DC53040002AE74D /* FakedRotation */ = {
+			isa = PBXGroup;
+			children = (
+				9F7345D01DC53040002AE74D /* SwiftFakedRotation-Info.plist */,
+				9FB3DCA41DC55B5B0034946E /* FakedRotation.storyboard */,
+				4D49FC9B1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard */,
+				9F003EF51DC558D7004DFEC7 /* FakedRotationVC.swift */,
+			);
+			path = FakedRotation;
+			sourceTree = "<group>";
+		};
+		9F7416341DC416BC008A3BA6 = {
+			isa = PBXGroup;
+			children = (
+				4D76D9541F0427390037E604 /* Resources */,
+				4D76D8FB1F04261E0037E604 /* ObjC */,
+				4D76D8FA1F0425FE0037E604 /* Swift */,
+				9F74163E1DC416BC008A3BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F74163E1DC416BC008A3BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F74163D1DC416BC008A3BA6 /* SwiftSizeClasses.app */,
+				9F7345A81DC52DB3002AE74D /* SwiftReverseTransforms.app */,
+				9F7345C21DC5303F002AE74D /* SwiftFakedRotation.app */,
+				4D76D97A1F042A130037E604 /* ObjCReverseTransforms.app */,
+				4D76D9951F042A200037E604 /* ObjCSizeClasses.app */,
+				4D76D9B01F042A320037E604 /* ObjCFakedRotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D76D9791F042A130037E604 /* ObjCReverseTransforms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D76D98E1F042A130037E604 /* Build configuration list for PBXNativeTarget "ObjCReverseTransforms" */;
+			buildPhases = (
+				4D76D9761F042A130037E604 /* Sources */,
+				4D76D9771F042A130037E604 /* Frameworks */,
+				4D76D9781F042A130037E604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjCReverseTransforms;
+			productName = ObjCReverseTransforms;
+			productReference = 4D76D97A1F042A130037E604 /* ObjCReverseTransforms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D76D9941F042A200037E604 /* ObjCSizeClasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D76D9A91F042A200037E604 /* Build configuration list for PBXNativeTarget "ObjCSizeClasses" */;
+			buildPhases = (
+				4D76D9911F042A200037E604 /* Sources */,
+				4D76D9921F042A200037E604 /* Frameworks */,
+				4D76D9931F042A200037E604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjCSizeClasses;
+			productName = ObjCSizeClasses;
+			productReference = 4D76D9951F042A200037E604 /* ObjCSizeClasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D76D9AF1F042A320037E604 /* ObjCFakedRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D76D9C41F042A320037E604 /* Build configuration list for PBXNativeTarget "ObjCFakedRotation" */;
+			buildPhases = (
+				4D76D9AC1F042A320037E604 /* Sources */,
+				4D76D9AD1F042A320037E604 /* Frameworks */,
+				4D76D9AE1F042A320037E604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjCFakedRotation;
+			productName = ObjCFakedRotation;
+			productReference = 4D76D9B01F042A320037E604 /* ObjCFakedRotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F7345A71DC52DB3002AE74D /* SwiftReverseTransforms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F7345B71DC52DB3002AE74D /* Build configuration list for PBXNativeTarget "SwiftReverseTransforms" */;
+			buildPhases = (
+				9F7345A41DC52DB3002AE74D /* Sources */,
+				9F7345A51DC52DB3002AE74D /* Frameworks */,
+				9F7345A61DC52DB3002AE74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftReverseTransforms;
+			productName = ReverseTransforms;
+			productReference = 9F7345A81DC52DB3002AE74D /* SwiftReverseTransforms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F7345C11DC5303F002AE74D /* SwiftFakedRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F7345D11DC53040002AE74D /* Build configuration list for PBXNativeTarget "SwiftFakedRotation" */;
+			buildPhases = (
+				9F7345BE1DC5303F002AE74D /* Sources */,
+				9F7345BF1DC5303F002AE74D /* Frameworks */,
+				9F7345C01DC5303F002AE74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFakedRotation;
+			productName = FakedRotation;
+			productReference = 9F7345C21DC5303F002AE74D /* SwiftFakedRotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F74163C1DC416BC008A3BA6 /* SwiftSizeClasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F74164F1DC416BC008A3BA6 /* Build configuration list for PBXNativeTarget "SwiftSizeClasses" */;
+			buildPhases = (
+				9F7416391DC416BC008A3BA6 /* Sources */,
+				9F74163A1DC416BC008A3BA6 /* Frameworks */,
+				9F74163B1DC416BC008A3BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSizeClasses;
+			productName = SizeClassesRotationTester;
+			productReference = 9F74163D1DC416BC008A3BA6 /* SwiftSizeClasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F7416351DC416BC008A3BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Allen, Inc.";
+				TargetAttributes = {
+					4D76D9791F042A130037E604 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Automatic;
+					};
+					4D76D9941F042A200037E604 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Automatic;
+					};
+					4D76D9AF1F042A320037E604 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Automatic;
+					};
+					9F7345A71DC52DB3002AE74D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Automatic;
+					};
+					9F7345C11DC5303F002AE74D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Automatic;
+					};
+					9F74163C1DC416BC008A3BA6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 72X6ZPCY5L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F7416381DC416BC008A3BA6 /* Build configuration list for PBXProject "FixedOrientations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F7416341DC416BC008A3BA6;
+			productRefGroup = 9F74163E1DC416BC008A3BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F74163C1DC416BC008A3BA6 /* SwiftSizeClasses */,
+				9F7345A71DC52DB3002AE74D /* SwiftReverseTransforms */,
+				9F7345C11DC5303F002AE74D /* SwiftFakedRotation */,
+				4D76D9791F042A130037E604 /* ObjCReverseTransforms */,
+				4D76D9941F042A200037E604 /* ObjCSizeClasses */,
+				4D76D9AF1F042A320037E604 /* ObjCFakedRotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D76D9781F042A130037E604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76D9DB1F042ACF0037E604 /* ReverseTransforms.storyboard in Resources */,
+				4D76D9DC1F042ACF0037E604 /* ReverseTransformsLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D76D9931F042A200037E604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76D9E01F042ADB0037E604 /* SizeClasses.storyboard in Resources */,
+				4D76D9E11F042ADB0037E604 /* SizeClassesLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D76D9AE1F042A320037E604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76D9D71F042AAB0037E604 /* FakedRotation.storyboard in Resources */,
+				4D76D9D81F042AAB0037E604 /* FakedRotationLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345A61DC52DB3002AE74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7345BA1DC52E5E002AE74D /* ReverseTransforms.storyboard in Resources */,
+				9F7345BD1DC52EBF002AE74D /* Assets.xcassets in Resources */,
+				4D49FC9A1F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345C01DC5303F002AE74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB3DCA51DC55B5B0034946E /* FakedRotation.storyboard in Resources */,
+				4D49FC9C1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard in Resources */,
+				9F7345D61DC53131002AE74D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F74163B1DC416BC008A3BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76D9571F0428320037E604 /* SizeClasses.storyboard in Resources */,
+				4D76D9581F0428320037E604 /* SizeClassesLaunchScreen.storyboard in Resources */,
+				9F1FF6CC1DC51D9800344034 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D76D9761F042A130037E604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76D9E21F042B100037E604 /* FVCAppDelegate.m in Sources */,
+				4D76D9CE1F042A8F0037E604 /* AVCamCameraViewController.m in Sources */,
+				4D76D9D11F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m in Sources */,
+				4D76D9DD1F042ACF0037E604 /* RTViewController.m in Sources */,
+				4D76D9E31F042B100037E604 /* main.m in Sources */,
+				4D76D9D41F042A8F0037E604 /* AVCamPreviewView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D76D9911F042A200037E604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76D9CF1F042A8F0037E604 /* AVCamCameraViewController.m in Sources */,
+				4D76D9DE1F042ADB0037E604 /* SCNavigationController.m in Sources */,
+				4D76D9D21F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m in Sources */,
+				4D76D9DF1F042ADB0037E604 /* SCViewController.m in Sources */,
+				4D76D9E41F042B100037E604 /* FVCAppDelegate.m in Sources */,
+				4D76D9E51F042B100037E604 /* main.m in Sources */,
+				4D76D9D51F042A8F0037E604 /* AVCamPreviewView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D76D9AC1F042A320037E604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76D9E61F042B110037E604 /* FVCAppDelegate.m in Sources */,
+				4D76D9D91F042AAB0037E604 /* FRViewController.m in Sources */,
+				4D76D9D01F042A8F0037E604 /* AVCamCameraViewController.m in Sources */,
+				4D76D9D31F042A8F0037E604 /* AVCamPhotoCaptureDelegate.m in Sources */,
+				4D76D9E71F042B110037E604 /* main.m in Sources */,
+				4D76D9D61F042A8F0037E604 /* AVCamPreviewView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345A41DC52DB3002AE74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F003EF41DC536D3004DFEC7 /* ReverseTransformsVC.swift in Sources */,
+				4DB064251F03EE72009CE5CD /* CameraViewController.swift in Sources */,
+				4DB0641F1F03EDB5009CE5CD /* Common.swift in Sources */,
+				4DB064281F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */,
+				9F7345BC1DC52E6F002AE74D /* AppDelegate.swift in Sources */,
+				4DB0642B1F03EE72009CE5CD /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7345BE1DC5303F002AE74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7345D41DC53066002AE74D /* AppDelegate.swift in Sources */,
+				4DB064261F03EE72009CE5CD /* CameraViewController.swift in Sources */,
+				4DB064201F03EDB5009CE5CD /* Common.swift in Sources */,
+				4DB064291F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */,
+				9F003EF71DC558DA004DFEC7 /* FakedRotationVC.swift in Sources */,
+				4DB0642C1F03EE72009CE5CD /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7416391DC416BC008A3BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB064271F03EE72009CE5CD /* PhotoCaptureDelegate.swift in Sources */,
+				4DB0641E1F03EDB5009CE5CD /* Common.swift in Sources */,
+				4DB0642A1F03EE72009CE5CD /* PreviewView.swift in Sources */,
+				4DB064241F03EE72009CE5CD /* CameraViewController.swift in Sources */,
+				9F73459B1DC51DF8002AE74D /* AppDelegate.swift in Sources */,
+				9F1FF6CF1DC51DB400344034 /* SizeClassesNC.swift in Sources */,
+				9F1FF6D01DC51DB400344034 /* SizeClassesVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D76D98F1F042A130037E604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/ObjC/ReverseTranforms/ObjCReverseTransforms-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.ObjCReverseTransforms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D76D9901F042A130037E604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/ObjC/ReverseTranforms/ObjCReverseTransforms-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.ObjCReverseTransforms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D76D9AA1F042A200037E604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/ObjC/SizeClasses/ObjCSizeClasses-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.ObjCSizeClasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D76D9AB1F042A200037E604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/ObjC/SizeClasses/ObjCSizeClasses-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.ObjCSizeClasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D76D9C51F042A320037E604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/ObjC/FakedRotation/ObjCFakedRotation-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.ObjCFakedRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D76D9C61F042A320037E604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/ObjC/FakedRotation/ObjCFakedRotation-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.ObjCFakedRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F7345B81DC52DB3002AE74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Swift/ReverseTransforms/SwiftReverseTransforms-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftReverseTransforms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F7345B91DC52DB3002AE74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Swift/ReverseTransforms/SwiftReverseTransforms-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftReverseTransforms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F7345D21DC53040002AE74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Swift/FakedRotation/SwiftFakedRotation-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftFakedRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F7345D31DC53040002AE74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Swift/FakedRotation/SwiftFakedRotation-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftFakedRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F74164D1DC416BC008A3BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F74164E1DC416BC008A3BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F7416501DC416BC008A3BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Swift/SizeClasses/SwiftSizeClasses-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftSizeClasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F7416511DC416BC008A3BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Swift/SizeClasses/SwiftSizeClasses-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftSizeClasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D76D98E1F042A130037E604 /* Build configuration list for PBXNativeTarget "ObjCReverseTransforms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D76D98F1F042A130037E604 /* Debug */,
+				4D76D9901F042A130037E604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D76D9A91F042A200037E604 /* Build configuration list for PBXNativeTarget "ObjCSizeClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D76D9AA1F042A200037E604 /* Debug */,
+				4D76D9AB1F042A200037E604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D76D9C41F042A320037E604 /* Build configuration list for PBXNativeTarget "ObjCFakedRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D76D9C51F042A320037E604 /* Debug */,
+				4D76D9C61F042A320037E604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F7345B71DC52DB3002AE74D /* Build configuration list for PBXNativeTarget "SwiftReverseTransforms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7345B81DC52DB3002AE74D /* Debug */,
+				9F7345B91DC52DB3002AE74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F7345D11DC53040002AE74D /* Build configuration list for PBXNativeTarget "SwiftFakedRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7345D21DC53040002AE74D /* Debug */,
+				9F7345D31DC53040002AE74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F7416381DC416BC008A3BA6 /* Build configuration list for PBXProject "FixedOrientations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F74164D1DC416BC008A3BA6 /* Debug */,
+				9F74164E1DC416BC008A3BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F74164F1DC416BC008A3BA6 /* Build configuration list for PBXNativeTarget "SwiftSizeClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7416501DC416BC008A3BA6 /* Debug */,
+				9F7416511DC416BC008A3BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F7416351DC416BC008A3BA6 /* Project object */;
+}
