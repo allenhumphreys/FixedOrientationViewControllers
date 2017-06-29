@@ -65,6 +65,7 @@
 /* Begin PBXFileReference section */
 		4D49FC991F03F2E600932052 /* ReverseTransformsLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReverseTransformsLaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D49FC9B1F03F85F00932052 /* FakedRotationLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FakedRotationLaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D6CD02C1F05AD2100FFDA34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D76D9551F0428320037E604 /* SizeClasses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SizeClasses.storyboard; sourceTree = "<group>"; };
 		4D76D9561F0428320037E604 /* SizeClassesLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SizeClassesLaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D76D9601F0429EC0037E604 /* FakedRotation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FakedRotation.storyboard; sourceTree = "<group>"; };
@@ -289,6 +290,7 @@
 		9F7416341DC416BC008A3BA6 = {
 			isa = PBXGroup;
 			children = (
+				4D6CD02C1F05AD2100FFDA34 /* README.md */,
 				4D76D9541F0427390037E604 /* Resources */,
 				4D76D8FB1F04261E0037E604 /* ObjC */,
 				4D76D8FA1F0425FE0037E604 /* Swift */,
