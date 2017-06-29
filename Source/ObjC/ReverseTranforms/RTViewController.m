@@ -6,6 +6,8 @@
 //  Copyright © 2017 Allen Humphreys. All rights reserved.
 //
 
+// Adapted from https://developer.apple.com/library/content/qa/qa1890/_index.html
+
 #import "RTViewController.h"
 
 @interface RTViewController ()
@@ -23,7 +25,7 @@
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
     [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
 
-    bool newIsLandscape = size.width > size.height;
+    BOOL newIsLandscape = size.width > size.height;
     CGRect previousBounds = self.view.bounds;
 
     __weak typeof(self) weakSelf = self;
@@ -33,7 +35,7 @@
 
         // Switch the height and width when change from a portrait to a landscape orientation or vice versa
         CGRect newBounds = previousBounds;
-        bool oldIsLandscape = CGRectGetWidth(previousBounds) > CGRectGetHeight(previousBounds);
+        BOOL oldIsLandscape = CGRectGetWidth(previousBounds) > CGRectGetHeight(previousBounds);
 
         if (newIsLandscape != oldIsLandscape) {
             newBounds.size = CGSizeMake(size.height, size.width);
@@ -55,14 +57,14 @@
         CGAffineTransform transform = CGAffineTransformIdentity;
 
         switch (orientation) {
-        case UIInterfaceOrientationLandscapeLeft:
-            transform = CGAffineTransformMakeRotation(-M_PI_2);
-            break;
-        case UIInterfaceOrientationLandscapeRight:
-            transform = CGAffineTransformMakeRotation(M_PI_2);
-            break;
-        default:
-            break;
+            case UIInterfaceOrientationLandscapeLeft:
+                transform = CGAffineTransformMakeRotation(-M_PI_2);
+                break;
+            case UIInterfaceOrientationLandscapeRight:
+                transform = CGAffineTransformMakeRotation(M_PI_2);
+                break;
+            default:
+                break;
         }
 
         for (UIView *view in strongSelf.viewsToBeRotated) {
@@ -83,7 +85,7 @@
 }
 
 - (BOOL)prefersStatusBarHidden {
-    return true;
+    return YES;
 }
 
 @end

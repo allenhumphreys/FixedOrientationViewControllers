@@ -22,26 +22,32 @@ class ReverseTransformVC: CameraViewController {
         super.viewWillTransition(to: size, with: coordinator)
 
         let newIsLandscape = size.width > size.height
-        let previousBounds = self.view.bounds;
-        coordinator.animate(alongsideTransition: { (context) in
+        let previousBounds = self.view.bounds
+        coordinator.animate(alongsideTransition: { [weak self] (context) in
+            guard let strongSelf = self, let view = strongSelf.view else {
+                return
+            }
             
             // Switch the height and width when change from a portrait to a landscape orientation or vice versa
-            var newBounds = previousBounds;
-            let oldIsLandscape = previousBounds.size.width > previousBounds.size.height;
+            var newBounds = previousBounds
+            let oldIsLandscape = previousBounds.size.width > previousBounds.size.height
 
-            if (newIsLandscape != oldIsLandscape) {
-                newBounds.size = CGSize.init(width: size.height, height: size.width)
+            if newIsLandscape != oldIsLandscape {
+                newBounds.size = CGSize(width: size.height, height: size.width)
             }
-            self.view.bounds = newBounds;
+
+            view.bounds = newBounds
 
             // Apply an oposing transoform to the view to keep it in place
             let deltaTransform = coordinator.targetTransform
-            let deltaAngle = atan2f(Float(deltaTransform.b), Float(deltaTransform.a))
-            var currentRotation: Float? = self.view.layer.value(forKeyPath: "transform.rotation.z") as? Float
+            let deltaAngle = Double(atan2(deltaTransform.b, deltaTransform.a))
 
-            if currentRotation != nil {
-                currentRotation = currentRotation! + -1 * deltaAngle + 0.0001;
-                self.view.layer.setValue(NSNumber.init(value: currentRotation!), forKeyPath: "transform.rotation.z")
+            // In Swift 3.2/4 Coercing to a Float will fail if the underlying value is a double
+            if var currentRotation: Double = view.layer.value(forKeyPath: "transform.rotation.z") as? Double {
+                currentRotation = currentRotation + -1 * deltaAngle + 0.0001
+                view.layer.setValue(NSNumber(value: currentRotation), forKeyPath: "transform.rotation.z")
+            } else {
+                print("This would be a great example of NSNumber bridging failure in the Swift3.2/4 system")
             }
 
             // Explicity apply transforms to subviews that we'd like to see rotate
@@ -50,22 +56,24 @@ class ReverseTransformVC: CameraViewController {
 
             switch orientation {
             case .landscapeLeft:
-                transform = CGAffineTransform.init(rotationAngle: CGFloat(-.halfpi))
+                transform = CGAffineTransform(rotationAngle: CGFloat(-.halfpi))
             case .landscapeRight:
-                transform = CGAffineTransform.init(rotationAngle: CGFloat(.halfpi))
+                transform = CGAffineTransform(rotationAngle: CGFloat(.halfpi))
             default:
                 break
             }
-            for view in self.viewsToBeRotated {
+            for view in strongSelf.viewsToBeRotated {
                 view.transform = transform
             }
-        }, completion: { context in
-            var currentTransform = self.view.transform;
+        }, completion: { [weak self] (context) in
+            guard var currentTransform = self?.view?.transform else {
+                return
+            }
             currentTransform.a = round(currentTransform.a)
             currentTransform.b = round(currentTransform.b)
             currentTransform.c = round(currentTransform.c)
             currentTransform.d = round(currentTransform.d)
-            self.view.transform = currentTransform
+            self?.view?.transform = currentTransform
         })
     }
 

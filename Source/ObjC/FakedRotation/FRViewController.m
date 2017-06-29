@@ -39,7 +39,7 @@
 }
 
 - (BOOL)prefersStatusBarHidden {
-    return true;
+    return YES;
 }
 
 - (void)orientationDidChange:(NSNotification *)notification {
